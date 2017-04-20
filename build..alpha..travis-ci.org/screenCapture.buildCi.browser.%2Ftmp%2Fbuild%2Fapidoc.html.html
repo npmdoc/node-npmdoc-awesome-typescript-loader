@@ -1,0 +1,429 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/s-panferov/awesome-typescript-loader">awesome-typescript-loader (v3.1.2)</a>
+</h1>
+<h4>Awesome TS loader for webpack</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.awesome-typescript-loader">module awesome-typescript-loader</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.awesome-typescript-loader">
+            function <span class="apidocSignatureSpan"></span>awesome-typescript-loader
+            <span class="apidocSignatureSpan">(text)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.CheckerPlugin">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>CheckerPlugin
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>TsConfigPathsPlugin
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">awesome-typescript-loader.</span>CheckerPlugin.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">awesome-typescript-loader.</span>TsConfigPathsPlugin.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.awesome-typescript-loader.CheckerPlugin">module awesome-typescript-loader.CheckerPlugin</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.CheckerPlugin.CheckerPlugin">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>CheckerPlugin
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.awesome-typescript-loader.CheckerPlugin.prototype">module awesome-typescript-loader.CheckerPlugin.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.CheckerPlugin.prototype.apply">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.CheckerPlugin.prototype.</span>apply
+            <span class="apidocSignatureSpan">(compiler)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin">module awesome-typescript-loader.TsConfigPathsPlugin</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.TsConfigPathsPlugin">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>TsConfigPathsPlugin
+            <span class="apidocSignatureSpan">(config)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin.prototype">module awesome-typescript-loader.TsConfigPathsPlugin.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.apply">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.TsConfigPathsPlugin.prototype.</span>apply
+            <span class="apidocSignatureSpan">(resolver)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.createPlugin">
+            function <span class="apidocSignatureSpan">awesome-typescript-loader.TsConfigPathsPlugin.prototype.</span>createPlugin
+            <span class="apidocSignatureSpan">(resolver, mapping)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.awesome-typescript-loader" id="apidoc.module.awesome-typescript-loader">module awesome-typescript-loader</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.awesome-typescript-loader" id="apidoc.element.awesome-typescript-loader.awesome-typescript-loader">
+        function <span class="apidocSignatureSpan"></span>awesome-typescript-loader
+        <span class="apidocSignatureSpan">(text)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function loader(text) {
+    try {
+        compiler.call(undefined, this, text);
+    }
+    catch (e) {
+        console.error(e, e.stack);
+        throw e;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.CheckerPlugin" id="apidoc.element.awesome-typescript-loader.CheckerPlugin">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>CheckerPlugin
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CheckerPlugin() {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin" id="apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>TsConfigPathsPlugin
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PathPlugin(config) {
+    if (config === void 0) { config = {}; }
+    var _this = this;
+    this.source = 'described-resolve';
+    this.target = 'resolve';
+    this.ts = instance_1.setupTs(config.compiler).tsImpl;
+    var context = config.context || process.cwd();
+    var _a = instance_1.readConfigFile(context, config, {}, this.ts), configFilePath = _a.configFilePath, compilerConfig = _a.compilerConfig
+;
+    this.options = compilerConfig.options;
+    this.configFilePath = configFilePath;
+    this.baseUrl = this.options.baseUrl;
+    this.absoluteBaseUrl = path.resolve(path.dirname(this.configFilePath), this.baseUrl || '.');
+    this.mappings = [];
+    var paths = this.options.paths || {};
+    Object.keys(paths).forEach(function (alias) {
+        var onlyModule = alias.indexOf('*') === -1;
+        var excapedAlias = escapeRegExp(alias);
+        var targets = paths[alias];
+        targets.forEach(function (target) {
+            var aliasPattern;
+            if (onlyModule) {
+                aliasPattern = new RegExp("^" + excapedAlias + "$");
+            }
+            else {
+                var withStarCapturing = excapedAlias.replace('\\*', '(.*)');
+                aliasPattern = new RegExp("^" + withStarCapturing);
+            }
+            _this.mappings.push({
+                onlyModule: onlyModule,
+                alias: alias,
+                aliasPattern: aliasPattern,
+                target: target
+            });
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.awesome-typescript-loader.CheckerPlugin" id="apidoc.module.awesome-typescript-loader.CheckerPlugin">module awesome-typescript-loader.CheckerPlugin</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.CheckerPlugin.CheckerPlugin" id="apidoc.element.awesome-typescript-loader.CheckerPlugin.CheckerPlugin">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>CheckerPlugin
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CheckerPlugin() {
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.awesome-typescript-loader.CheckerPlugin.prototype" id="apidoc.module.awesome-typescript-loader.CheckerPlugin.prototype">module awesome-typescript-loader.CheckerPlugin.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.CheckerPlugin.prototype.apply" id="apidoc.element.awesome-typescript-loader.CheckerPlugin.prototype.apply">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.CheckerPlugin.prototype.</span>apply
+        <span class="apidocSignatureSpan">(compiler)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">apply = function (compiler) {
+    compiler.plugin("run", function (params, callback) {
+        compiler[exports.WatchModeSymbol] = false;
+        callback();
+    });
+    compiler.plugin("watch-run", function (params, callback) {
+        compiler[exports.WatchModeSymbol] = true;
+        callback();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin" id="apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin">module awesome-typescript-loader.TsConfigPathsPlugin</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.TsConfigPathsPlugin" id="apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.TsConfigPathsPlugin">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.</span>TsConfigPathsPlugin
+        <span class="apidocSignatureSpan">(config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function PathPlugin(config) {
+    if (config === void 0) { config = {}; }
+    var _this = this;
+    this.source = 'described-resolve';
+    this.target = 'resolve';
+    this.ts = instance_1.setupTs(config.compiler).tsImpl;
+    var context = config.context || process.cwd();
+    var _a = instance_1.readConfigFile(context, config, {}, this.ts), configFilePath = _a.configFilePath, compilerConfig = _a.compilerConfig
+;
+    this.options = compilerConfig.options;
+    this.configFilePath = configFilePath;
+    this.baseUrl = this.options.baseUrl;
+    this.absoluteBaseUrl = path.resolve(path.dirname(this.configFilePath), this.baseUrl || '.');
+    this.mappings = [];
+    var paths = this.options.paths || {};
+    Object.keys(paths).forEach(function (alias) {
+        var onlyModule = alias.indexOf('*') === -1;
+        var excapedAlias = escapeRegExp(alias);
+        var targets = paths[alias];
+        targets.forEach(function (target) {
+            var aliasPattern;
+            if (onlyModule) {
+                aliasPattern = new RegExp("^" + excapedAlias + "$");
+            }
+            else {
+                var withStarCapturing = excapedAlias.replace('\\*', '(.*)');
+                aliasPattern = new RegExp("^" + withStarCapturing);
+            }
+            _this.mappings.push({
+                onlyModule: onlyModule,
+                alias: alias,
+                aliasPattern: aliasPattern,
+                target: target
+            });
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin.prototype" id="apidoc.module.awesome-typescript-loader.TsConfigPathsPlugin.prototype">module awesome-typescript-loader.TsConfigPathsPlugin.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.apply" id="apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.apply">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.TsConfigPathsPlugin.prototype.</span>apply
+        <span class="apidocSignatureSpan">(resolver)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">apply = function (resolver) {
+    var _this = this;
+    var _a = this, baseUrl = _a.baseUrl, mappings = _a.mappings;
+    if (baseUrl) {
+        resolver.apply(new ModulesInRootPlugin("module", this.absoluteBaseUrl, "resolve"));
+    }
+    mappings.forEach(function (mapping) {
+        resolver.plugin(_this.source, _this.createPlugin(resolver, mapping));
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.createPlugin" id="apidoc.element.awesome-typescript-loader.TsConfigPathsPlugin.prototype.createPlugin">
+        function <span class="apidocSignatureSpan">awesome-typescript-loader.TsConfigPathsPlugin.prototype.</span>createPlugin
+        <span class="apidocSignatureSpan">(resolver, mapping)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">createPlugin = function (resolver, mapping) {
+    var _this = this;
+    return function (request, callback) {
+        var innerRequest = getInnerRequest(resolver, request);
+        if (!innerRequest) {
+            return callback();
+        }
+        var match = innerRequest.match(mapping.aliasPattern);
+        if (!match) {
+            return callback();
+        }
+        var newRequestStr = mapping.target;
+        if (!mapping.onlyModule) {
+            newRequestStr = newRequestStr.replace('*', match[1]);
+        }
+        if (newRequestStr[0] === '.') {
+            newRequestStr = path.resolve(_this.absoluteBaseUrl, newRequestStr);
+        }
+        var newRequest = _.extend({}, request, {
+            request: newRequestStr
+        });
+        return resolver.doResolve(_this.target, newRequest, "aliased with mapping '" + innerRequest + "': '" + mapping.alias + "'
+to '" + newRequestStr + "'", createInnerCallback(function (err, result) {
+            if (arguments.length &gt; 0) {
+                return callback(err, result);
+            }
+            callback(null, null);
+        }, callback));
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
